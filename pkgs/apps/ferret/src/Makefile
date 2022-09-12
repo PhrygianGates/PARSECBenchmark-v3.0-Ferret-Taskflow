@@ -77,8 +77,8 @@ ifdef version
   ifeq "$(version)" "taskflow"
     benchmark_base := ferret-taskflow
     LDLIBS += -ltbb -ltbbmalloc
-	CFLAGS += -I/home/zhicheng/taskflow/taskflow/algorithm/ 
-	CXXFLAGS += -std=c++17 -fexceptions
+    CFLAGS += -I/home/zhicheng/taskflow/taskflow/algorithm/ 
+    CXXFLAGS += -std=c++17 -fexceptions
   endif
 endif
 
