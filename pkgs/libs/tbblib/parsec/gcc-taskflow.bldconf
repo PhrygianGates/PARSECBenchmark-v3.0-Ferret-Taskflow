@@ -1,0 +1,1 @@
+source ${PARSECDIR}/pkgs/libs/tbblib/parsec/gcc-tbb.bldconf

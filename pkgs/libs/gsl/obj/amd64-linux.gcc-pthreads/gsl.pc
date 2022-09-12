@@ -1,0 +1,10 @@
+prefix=/home/zhicheng/download/parsec-3.0/pkgs/libs/gsl/inst/amd64-linux.gcc-pthreads
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 1.9
+Libs: -L${exec_prefix}/lib -lgsl -lgslcblas  -lstdc++ -lm
+Cflags: -I${prefix}/include

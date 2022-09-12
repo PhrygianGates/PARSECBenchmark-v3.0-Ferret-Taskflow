@@ -1,0 +1,11 @@
+#define __TBB_VERSION_STRINGS \
+"TBB: BUILD_HOST\t\tpass-2 (x86_64)" ENDL \
+"TBB: BUILD_OS\t\tCentOS Stream release 8" ENDL \
+"TBB: BUILD_KERNEL\tLinux 4.18.0-338.el8.x86_64 #1 SMP Fri Aug 27 17:32:14 UTC 2021" ENDL \
+"TBB: BUILD_GCC\t\tConfigured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux gcc version 8.5.0 20210514 (Red Hat 8.5.0-3) (GCC) " ENDL \
+"TBB: BUILD_GLIBC\t2.28" ENDL \
+"TBB: BUILD_LD\t\tGNU ld version 2.30-108.el8" ENDL \
+"TBB: BUILD_TARGET\tintel64 on cc8.5.0_libc2.28_kernel4.18.0" ENDL \
+"TBB: BUILD_COMMAND\tg++ -DTBB_USE_DEBUG -DDO_ITT_NOTIFY -g -O0 -DUSE_PTHREAD -m64 -fPIC -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -I/home/zhicheng/download/parsec-3.0/pkgs/libs/tbblib/inst/amd64-linux.gcc-taskflow/include -fexceptions -I../../src -I../../src/rml/include -I../../include" ENDL \
+
+#define __TBB_DATETIME "Sun Sep 11 14:26:13 UTC 2022"

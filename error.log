@@ -1,0 +1,29 @@
+[PARSEC] Benchmarks to run:  parsec.ferret
+
+[PARSEC] [========== Running benchmark parsec.ferret [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+corel/
+corel/__cass.env
+corel/corel.raw
+corel/lsh.lsh
+corel/map_corel.map
+queries/
+queries/coast.jpg
+[PARSEC] Running 'time /home/zhicheng/download/parsec-3.0/pkgs/apps/ferret/inst/amd64-linux.gcc-taskflow/bin/ferret corel lsh queries 5 5 1 output.txt':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+run taskflow
+/home/zhicheng/download/parsec-3.0/bin/parsecmgmt: line 1222: 3719745 Segmentation fault      (core dumped) /home/zhicheng/download/parsec-3.0/pkgs/apps/ferret/inst/amd64-linux.gcc-taskflow/bin/ferret corel lsh queries 5 5 1 output.txt
+
+real	0m0.144s
+user	0m0.000s
+sys	0m0.004s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC]
+[PARSEC] BIBLIOGRAPHY
+[PARSEC]
+[PARSEC] [1] Bienia. Benchmarking Modern Multiprocessors. Ph.D. Thesis, 2011.
+[PARSEC]
+[PARSEC] Done.
